@@ -1,0 +1,86 @@
+.app{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #6f2232;
+    align-items: center;
+}
+nav{
+    position: sticky;
+    top: 0px;
+}
+
+.searchBar{
+    padding-right: 5rem;
+}
+
+.home{
+    color: #fff;
+    align-content: center;
+    text-decoration: none;
+    padding-left: 5rem;
+}
+
+.animeLists{
+    position: relative;
+    background-color: antiquewhite;
+    display: flex;
+    margin: 2px;
+    overflow: hidden;
+    overflow-x: scroll; 
+}
+
+.animeLists::-webkit-scrollbar{
+    display: none;
+}
+
+.animeList{
+    position: relative;
+    padding: 2rem;
+    border: none;
+    transition: all 0.5s;
+}
+
+.animeList:hover{
+    transform: scale(1.1);
+    
+}
+
+.animeList>img{
+    width: 300px ;
+    height: 300px ;
+}
+
+
+
+.aninedetails{
+    position: absolute;
+    margin-top: 2%;
+    padding: 100px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: auto;
+    background-color: antiquewhite;
+}
+
+.synopsis{
+    font-size: large;
+    font-weight: 200;
+}
+
+
+
+.img_details{
+    display: grid;
+    grid-template-columns: 300px 300px ;
+}
+
+.image{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.col{
+    color: rgb(59, 15, 129);
+}
